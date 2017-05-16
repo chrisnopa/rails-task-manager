@@ -9,11 +9,11 @@ Rails.application.routes.draw do
   # PATCH '/tasks/:id': update an existing task
   # DELETE '/tasks/:id': delete an existing task
 
-  get "tasks", to: "tasks#index"
-  get "tasks/id", to: "tasks#show"
-  get "tasks/new", to: "tasks#new"
-  post "tasks", to: "tasks#create"
+  # get "tasks", to: "tasks#index"
+  # get "tasks/id", to: "tasks#show"
+  # get "tasks/new", to: "tasks#new"
+  # post "tasks", to: "tasks#create"
 
-  get "tasks/:id/edit", to: "tasks#edit"
-  patch "tasks/:id", to: "tasks#update"
+  # get "tasks/:id/edit", to: "tasks#edit"
+  # patch "tasks/:id", to: "tasks#update"
 end
